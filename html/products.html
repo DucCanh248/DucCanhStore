@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm - Dụng Cụ Thể Thao</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../html/index.html">
+                <img src="../img/logo.png" alt="Logo" class="logo">
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="../html/index.html">Trang chủ</a></li>
+                    <li><a href="../html/products.html">Sản phẩm</a></li>
+                    <li><a href="../html/news.html">Tin tức</a></li>
+                    <li><a href="../html/about.html">Giới thiệu</a></li>
+                    <li><a href="../html/cart.html">Giỏ hàng</a></li>
+                    <li id="userInfo" style="display: none;">
+                        <span id="userName"></span>
+                        <a href="#" id="logoutBtn" class="ms-2">Đăng xuất</a>
+                    </li>
+                    <li id="loginLink"><a href="../html/login.html">Đăng nhập</a></li>
+                    <li id="registerLink"><a href="../html/register.html">Đăng ký</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-section container">
+            <h2 class="text-center mb-3">Danh sách sản phẩm</h2>
+            <p class="text-center text-muted mb-5">Khám phá bộ sưu tập dụng cụ thể thao chất lượng cao</p>
+            <div class="row" id="products-list"></div>
+        </section>
+    </main>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Về chúng tôi</h5>
+                    <p>Cửa hàng dụng cụ thể thao chất lượng cao</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Liên hệ</h5>
+                    <p>Email: info@ducthethao.com</p>
+                    <p>Hotline: 0909 123 456</p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <h5>Theo dõi chúng tôi</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <p class="text-center mt-3">© 2025 Trần Đức Cảnh - Website dụng cụ thể thao</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký - Dụng Cụ Thể Thao</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../html/index.html">
+                <img src="../img/logo.png" alt="Logo" class="logo">
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="../html/index.html">Trang chủ</a></li>
+                    <li><a href="../html/products.html">Sản phẩm</a></li>
+                    <li><a href="../html/news.html">Tin tức</a></li>
+                    <li><a href="../html/about.html">Giới thiệu</a></li>
+                    <li><a href="../html/cart.html">Giỏ hàng</a></li>
+                    <li id="userInfo" style="display: none;">
+                        <span id="userName"></span>
+                        <a href="#" id="logoutBtn" class="ms-2">Đăng xuất</a>
+                    </li>
+                    <li id="loginLink"><a href="../html/login.html">Đăng nhập</a></li>
+                    <li id="registerLink"><a href="../html/register.html">Đăng ký</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="register-section container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card p-4">
+                        <h2 class="text-center mb-4">Đăng ký</h2>
+                        <form id="registerForm">
+                            <div class="mb-3">
+                                <label for="registerName" class="form-label">Họ và tên</label>
+                                <input type="text" class="form-control" id="registerName" placeholder="Nhập họ và tên" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="registerEmail" placeholder="Nhập email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerPassword" class="form-label">Mật khẩu</label>
+                                <input type="password" class="form-control" id="registerPassword" placeholder="Nhập mật khẩu" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="confirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                                <input type="password" class="form-control" id="confirmPassword" placeholder="Xác nhận mật khẩu" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Đăng ký</button>
+                            <p class="text-center mt-3">Đã có tài khoản? <a href="login.html">Đăng nhập ngay</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Về chúng tôi</h5>
+                    <p>Cửa hàng dụng cụ thể thao chất lượng cao</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Liên hệ</h5>
+                    <p>Email: info@ducthethao.com</p>
+                    <p>Hotline: 0909 123 456</p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <h5>Theo dõi chúng tôi</h5>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <p class="text-center mt-3">© 2025 Trần Đức Cảnh - Website dụng cụ thể thao</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/auth.js"></script>
+</body>
+</html>
