@@ -6,21 +6,21 @@ const sampleProducts = [
         id: 1,
         name: "Bóng đá Adidas",
         price: 300000,
-        image: "../img/bong_da_adidas.jpg",
+        image: "img/bong_da_adidas.jpg",
         description: "Bóng đá Adidas chính hãng, chất liệu cao cấp, phù hợp cho mọi trận đấu. <br><br>Được thiết kế với độ bền cao, bề mặt bóng tối ưu cho lực sút và kiểm soát bóng."
     },
     {
         id: 2,
         name: "Găng tay Boxing",
         price: 450000,
-        image: "../img/gang_tay.jpg",
+        image: "img/gang_tay.jpg",
         description: "Găng tay boxing bền bỉ, bảo vệ tay tốt, phù hợp cho tập luyện và thi đấu. <br><br>Có lớp đệm êm ái, hỗ trợ cổ tay, và thiết kế thoáng khí."
     },
     {
         id: 3,
         name: "Giày chạy Nike",
         price: 900000,
-        image: "../img/giay_nike.jpg",
+        image: "img/giay_nike.jpg",
         description: "Giày chạy Nike thiết kế hiện đại, hỗ trợ tối ưu cho mọi bước chạy. <br><br>Đệm lót êm ái, đế giày chống trượt, phù hợp cho cả chạy bộ và tập luyện hàng ngày."
     }
 ];
