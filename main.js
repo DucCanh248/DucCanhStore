@@ -60,9 +60,9 @@ function viewProduct(id) {
 
 // Danh sách video
 const videoList = [
-    "../video/motivational-video.mp4",
-    "../video/sports-highlight.mp4",
-    "../video/training-motivation.mp4"
+    "img/motivational-video.mp4",
+    "img/sports-highlight.mp4",
+    "img/training-motivation.mp4"
 ];
 let currentVideoIndex = 0;
 
